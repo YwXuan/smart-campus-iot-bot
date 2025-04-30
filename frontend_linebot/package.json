@@ -1,0 +1,22 @@
+{
+  "name": "linebot-demo",
+  "version": "1.0.0",
+  "description": "A simple LINE Bot using Messaging API and Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "keywords": ["line", "bot", "express", "messaging-api"],
+  "author": "你的名字",
+  "license": "MIT",
+  "dependencies": {
+    "@line/bot-sdk": "^9.8.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
