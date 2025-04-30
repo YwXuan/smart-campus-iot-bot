@@ -1,0 +1,2 @@
+# 強制所有 SQL 檔案使用 LF（Unix 格式）
+*.sql text eol=lf
