@@ -1,2 +1,8 @@
 # 強制所有 SQL 檔案使用 LF（Unix 格式）
 *.sql text eol=lf
+
+# 保持一致的 LF 換行
+*.js text eol=lf
+*.json text eol=lf
+*.sql text eol=lf
+*.py text eol=lf
